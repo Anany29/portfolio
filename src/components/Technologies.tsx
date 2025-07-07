@@ -10,7 +10,7 @@ const Technologies = () => {
       color: "from-blue-500 to-blue-600",
       description: "Containerization platform for consistent deployments across environments",
       level: "Expert",
-      experience: "3+ years"
+      
     },
     {
       name: "Kubernetes",
@@ -18,7 +18,7 @@ const Technologies = () => {
       color: "from-blue-600 to-indigo-600",
       description: "Container orchestration for scalable, resilient applications",
       level: "Expert",
-      experience: "2+ years"
+      
     },
     {
       name: "Jenkins",
@@ -26,7 +26,7 @@ const Technologies = () => {
       color: "from-red-500 to-red-600",
       description: "CI/CD automation server for streamlined development workflows",
       level: "Advanced",
-      experience: "2+ years"
+      
     },
     {
       name: "Ansible",
@@ -34,7 +34,7 @@ const Technologies = () => {
       color: "from-gray-600 to-gray-700",
       description: "Infrastructure as Code for automated configuration management",
       level: "Advanced",
-      experience: "2+ years"
+      
     },
     {
       name: "AWS",
@@ -42,7 +42,7 @@ const Technologies = () => {
       color: "from-orange-500 to-orange-600",
       description: "Cloud services including EC2, S3, Lambda, and comprehensive AWS ecosystem",
       level: "Expert",
-      experience: "3+ years"
+      
     },
     {
       name: "Terraform",
@@ -50,7 +50,7 @@ const Technologies = () => {
       color: "from-purple-500 to-purple-600",
       description: "Infrastructure as Code for multi-cloud resource provisioning",
       level: "Advanced",
-      experience: "2+ years"
+      
     },
     {
       name: "React.js",
@@ -58,7 +58,7 @@ const Technologies = () => {
       color: "from-cyan-500 to-cyan-600",
       description: "Frontend development for modern user interfaces and applications",
       level: "Intermediate",
-      experience: "1+ years"
+      
     }
   ];
 
@@ -143,9 +143,7 @@ const Technologies = () => {
                             <span className="px-3 py-1 text-xs font-medium bg-violet-600/20 text-violet-400 rounded-full border border-violet-500/30">
                               {tech.level}
                             </span>
-                            <span className="text-sm text-gray-400">
-                              {tech.experience}
-                            </span>
+                           
                           </div>
                         </div>
                         
